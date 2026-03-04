@@ -19,6 +19,7 @@ body {
     max-width: 950px;
     margin: 0 auto;
     padding: 50px;
+    overflow: hidden;  /*auto clears float */
 }
 
 /* Header & Footer 
@@ -32,6 +33,14 @@ footer {
     background-color: #22364A;
     color: #F4F4F4;
     text-align: center;
+}
+
+header h2 {
+    color: #F4F4F4;
+}
+
+header h1, header h2 {
+    margin: 0;
 }
 
 h1 {
@@ -75,3 +84,21 @@ h3 {
     padding: 10px;
     display: inline-block;
 }
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* Profile Image
+------------------------------------*/
+.profile-img {
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
