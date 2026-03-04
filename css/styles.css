@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 /* Color Palette
 # - color 1: #1B2A3B (Dark Navy - main background)
 # - color 2: #22364A (Slate Blue - header & footer)
@@ -19,7 +27,20 @@ body {
     max-width: 950px;
     margin: 0 auto;
     padding: 50px;
-    overflow: hidden;  /*auto clears float */
+    overflow: hidden;   /*auto clears float */
+}
+
+.column-narrow {
+    width: 30%;         /*narrow column width */
+    float: left;        /*float left for two-column layout */
+    padding-right: 3%;  /*space between columns */
+    min-height: 175px;  /*prevents layout collapse */
+}
+
+.column-wide {
+    width: 70%;         /*wide column width */
+    float: left;        /*float left for two-column layout */
+    min-height: 225px;  /* prevents layout collapse */
 }
 
 /* Header & Footer 
@@ -85,20 +106,8 @@ h3 {
     display: inline-block;
 }
 
-html {
-    box-sizing: border-box;
-}
-
-*, *::before, *::after {
-    box-sizing: inherit;
-}
-
 /* Profile Image
 ------------------------------------*/
 .profile-img {
-    width: 300px;
     border-radius: 50%;
-    float: left;
-    margin-right: 30px;
 }
-
