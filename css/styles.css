@@ -1,0 +1,56 @@
+/* Color Palette
+# - color 1: #1B2A3B (Dark Navy - main background)
+# - color 2: #22364A (Slate Blue - header & footer)
+# - color 3: #4A90E2 (Steel Blue - section accents)
+# - color 4: #F4F4F4 (Light Gray - text)
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    background-color: #1B2A3B;
+    color: #F4F4F4;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header, footer {
+    background-color: #22364A;
+    color: #F4F4F4;
+}
+
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+h2, h3 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    color: #4A90E2;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+    background-color: #22364A;
+    color: #F4F4F4;
+}
+
+/* Education
+------------------------------------*/
+.education {
+    background-color: #22364A;
+    color: #F4F4F4;
+}
