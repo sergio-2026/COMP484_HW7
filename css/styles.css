@@ -12,18 +12,26 @@ body {
     color: #F4F4F4;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
+    margin: 0;
 }
 
 .content-wrap {
     max-width: 950px;
     margin: 0 auto;
+    padding: 50px;
 }
 
 /* Header & Footer 
 ------------------------------------*/
-header, footer {
+header {
     background-color: #22364A;
     color: #F4F4F4;
+}
+
+footer {
+    background-color: #22364A;
+    color: #F4F4F4;
+    text-align: center;
 }
 
 h1 {
@@ -40,6 +48,7 @@ h2, h3 {
 
 h2 {
     font-size: 2rem;
+    margin-top: 0;
 }
 
 h3 {
@@ -58,4 +67,11 @@ h3 {
 .education {
     background-color: #22364A;
     color: #F4F4F4;
+}
+
+/* Footer Links
+------------------------------------*/
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
 }
