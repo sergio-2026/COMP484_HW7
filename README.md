@@ -1,2 +1,2 @@
 # COMP484_HW7
-https://github.com/sergio-2026/COMP484_HW7.git
+https://sergio-2026.github.io/COMP484_HW7/
